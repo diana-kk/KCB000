@@ -6,7 +6,7 @@ var Paper = SVG.g();
 //이미지
 var hidari = Paper.image('img/hidari.png', 0, 0, 20, 23).toDefs();
 var migi = Paper.image('img/migi.png', 0, 0, 21, 23).toDefs();
-var b01 = Paper.image('img/b01.png', 0, 0, 120, 120).toDefs();
+var b01 = Paper.image('img/B01.png', 0, 0, 120, 120).toDefs();
 
 // SVG 외곽선
 Paper.rect(0, 0, 360, 640, 6).attr({
