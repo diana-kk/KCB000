@@ -54,7 +54,8 @@ direction.selectAll('tspan')[1].attr({
 });
 
 var example = topArea.text(28, 175, ['• 生◯:', '싱싱하고 힘찬 기운']).attr({
-  'font-size': 26
+  'font-size': 26,
+  'fill': '#6D0000'
 });
 example.selectAll('tspan')[1].attr({
   x: 115,
@@ -63,7 +64,8 @@ example.selectAll('tspan')[1].attr({
 });
 
 var example2 = topArea.text(28, 215, ['• ◯白山:', '강원도와 경상북도의', '경계에 있는 산']).attr({
-  'font-size': 26
+  'font-size': 26,
+  'fill': '#6D0000'
 });
 example2.selectAll('tspan')[1].attr({
   x: 139,
