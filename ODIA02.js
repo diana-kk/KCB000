@@ -55,7 +55,8 @@ direction.selectAll('tspan')[1].attr({
 
 topArea.text(180, 180, '비호 - 목마').attr({
   'font-size': 32,
-  'text-anchor': 'middle'
+  'text-anchor': 'middle',
+  'fill': '#6D0000'
 });
 
 // 하단
